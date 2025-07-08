@@ -9,6 +9,10 @@ requirements = []
 path = 'contracts/BTC-Collateralized-Lending-Platform.clar'
 clarity_version = 3
 epoch = 3.1
+[contracts.loan-health-monitor]
+path = 'contracts/loan-health-monitor.clar'
+clarity_version = 3
+epoch = 3.1
 [repl.analysis]
 passes = ['check_checker']
 
