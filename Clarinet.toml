@@ -17,6 +17,10 @@ epoch = 3.1
 path = 'contracts/loan-insurance-pool.clar'
 clarity_version = 3
 epoch = 3.1
+[contracts.governance-voting]
+path = 'contracts/governance-voting.clar'
+clarity_version = 3
+epoch = 3.1
 [repl.analysis]
 passes = ['check_checker']
 
