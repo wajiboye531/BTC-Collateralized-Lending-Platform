@@ -1,0 +1,35 @@
+[project]
+name = 'BTC-Collateralized-Lending-Platform'
+description = ''
+authors = []
+telemetry = true
+cache_dir = '.\.cache'
+requirements = []
+[contracts.BTC-Collateralized-Lending-Platform]
+path = 'contracts/BTC-Collateralized-Lending-Platform.clar'
+clarity_version = 3
+epoch = 3.1
+[contracts.loan-health-monitor]
+path = 'contracts/loan-health-monitor.clar'
+clarity_version = 3
+epoch = 3.1
+[contracts.loan-insurance-pool]
+path = 'contracts/loan-insurance-pool.clar'
+clarity_version = 3
+epoch = 3.1
+[contracts.governance-voting]
+path = 'contracts/governance-voting.clar'
+clarity_version = 3
+epoch = 3.1
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
+
+[repl.remote_data]
+enabled = false
+api_url = 'https://api.hiro.so'
