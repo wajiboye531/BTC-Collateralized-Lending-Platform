@@ -21,6 +21,10 @@ epoch = 3.1
 path = 'contracts/governance-voting.clar'
 clarity_version = 3
 epoch = 3.1
+[contracts.interest-rate-oracle]
+path = 'contracts/interest-rate-oracle.clar'
+clarity_version = 3
+epoch = 3.1
 [repl.analysis]
 passes = ['check_checker']
 
